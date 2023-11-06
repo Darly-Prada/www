@@ -16,4 +16,6 @@ Este repositorio contiene proyectos prácticos y proyectos pequeños que estoy d
 
 Cada carpeta en este repositorio corresponde a un lenguaje de programación o herramienta específica. Dentro de las carpetas encontrarás archivos con el código fuente y una breve descripción de cada proyecto o ejercicio.
 
-Creado Darleida Prada
+
+Creado por: Darleida Prada
+2023
