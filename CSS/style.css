@@ -1,30 +1,22 @@
-html{
-    font-family:sans-serif;
-    background-color: dimgrey;
-}
 body{
-    background-color:  rgb(210, 190, 212);
-    margin:6, 18px;
+    margin: 0;
+    font-family:sans-serif;
+    background-color:rgb(231, 148, 231);
 }
 
-img{
-    display: inline;
-    width: 300px;
-    border-radius: 70%;
-    margin: 2px;
-    
-}
-main{
-
-    border: solid brown 2px;
-    align-items: center;
-}
-.contenido{
+  
+header{
     display: inline-block;
-    text-align: center;
-    width: 650px ;
-   
+    width: 100%;
+    height: 350px;
+    background-color: rgb(73, 2, 2);
 
+}
+img{
+    width: 180px;
+    border-radius: 25%;
+    display: inline;
+   
 }
 
 h1{
@@ -32,34 +24,43 @@ h1{
     font-size: 42px;
     color: rgb(61, 3, 114);
     text-align: center;
+    margin-top: 24px;
+    text-shadow: darkgoldenrod 2px 4px;
 }
-ul{
-
+ul{ 
     list-style-type:none;
-    text-align: right;
-    text-align: inline;
-
+    text-align:right;
 }
 
+figcaption{
+    color: white;
+    text-decoration:dashed;
+    
+}
 .item{
     display: inline-block;
-    color: red;
-    text-decoration: underline rgb(255, 136, 0);
-    margin: 2px;
+    color:white;
+    text-decoration: underline rgb(255, 251, 0);
+    margin: 1px;
     padding: 2px;
 
 }
-h2,h3{
+h2,h3,h4{
 color: rgb(160, 21, 3);
 text-align: center;
+}
 
+.contenido{
+    display: inline-block;
+    text-align: center;
+    width: 70% ;
 }
 
 table{
 border-collapse: collapse;
 display:inline-block center;
 width: 59%;
-margin: 6 10px; 
+margin: 2px; 
 padding: 4px;
 color: rgb(2, 2, 63);
 }
@@ -68,46 +69,37 @@ border:solid 2px black;
 box-sizing: 2px;
 }
 
-
 aside{
-    width: 40%;
-    height: 800%;
+    width: 35%;
+    height: 400px;
     border: black solid 2px;
     background-color: rgb(245, 165, 108) ;
     float:right;
     text-align: center;
     color: darkblue;
-    text-anchor: end;
-
+   
 }
-
 article{
-    width: 49%;
+    width: 100%;
     border: solid brown 2px ;
-    text-align: center;
-    
-    }
-h4{
-color: rgb(116, 21, 4);
-
+    text-align:center;
 }
 
+audio{
+    text-align:center;
+}
 video{
-    width:auto;
-    height: 300px;
+    width: auto;
+    height: 350px;
     text-align: center;
-
 }
-ol{
+.Lista-ol{
     width: 45%;
     display: inline-block;
     color: blue;
+    padding: 2px;
+
 }
-
-    li{
-        align-items: right;
-    }
-
 
     footer{
     height: 150px;
@@ -116,11 +108,4 @@ ol{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
    padding-top: 25px;
-
 }
-
-
-
-
-
-
