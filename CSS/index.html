@@ -1,61 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi perfil</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
+      <nav> 
+        <h1> TODO SOBRE MI </h1>
+        <ul>
+          <li class="item">Inicio</li>
+          <li class="item">Perfil</li>
+          <li class="item">Favoritos</li>
+        </ul>
+      </nav>
+      <figure>
       <img
         class="imagen"
         src="/html/Imagenes/mifoto.jpeg"
         alt="mi foto de perfil"
-        width="120 px"
       />
-      <figcaption>Darleida Prada</figcaption>
+      <figcaption>Darly Prada</figcaption>
+    </figure>
+
     </header>
-
-    <nav>
-      <ul>
-        <li>Inicio</li>
-        <li>Sobre mi</li>
-        <li>Favorito</li>
-      </ul>
-    </nav>
-
+  
+   
     <main>
-      <h1>Todo sobre Darleida Prada</h1>
-      <section>
+      <section class="contenido">
+        <h2>Darleida Prada Devia</h2>
         <p>
-          experiencia en logistica de transpotes... dando un giro Este es el
-          comienzo de mis prácticas y proyectos pequeños que estoy desarrollando
-          mientras aprendo diferentes lenguajes de programación y herramientas.
-          Git: Mis primeros pasos en la programación. HTML/CSS: Prácticas de
-          diseño y estructura web.
+          Amplia experiencia en logística de transportes... <br />
+          Dando un giro; Este es un nuvo comienzo de un mundo desconocido pero de la vida real, prácticas y proyectos
+          pequeños que estoy desarrollando mientras aprendo diferentes lenguajes
+          de programación y herramientas. Git: Mis primeros pasos en la
+          programación. HTML/CSS: Prácticas de diseño y estructura web.
         </p>
       </section>
 
-      <section>
-        <h2>Conociéndome...</h2>
+      <aside>
+        <p>La importancia de adquirir nuevos conocimientos </p>
+        <img src="/html/Imagenes/conocer.png" alt="explorando nuevo aprendizaje">
+      </aside>
+
+      <section class="cont2">
+        <h3>Conociéndome...</h3>
         <table>
-        <thead>
+          <thead>
             <th>Fortalezas</th>
             <th>Valores</th>
             <th>Debilidades</th>
             <th>Oportunidades</th>
-        </thead>
+          </thead>
 
-    <tbody>
-
+          <tbody>
             <tr>
               <td>Metódica</td>
               <td>Honesta</td>
               <td>Acelerada</td>
               <td>Autocontrol</td>
-
-
-             
             </tr>
 
             <tr>
@@ -63,53 +69,50 @@
               <td>Respetuosa</td>
               <td>Perfeccionista</td>
               <td>Paciente</td>
-              
             </tr>
 
             <tr>
-            <td>Disciplinada</td>
-            <td>Leal</td>
-            <td>Negativa</td>
-            <td> Autoconfianza</td>
+              <td>Disciplinada</td>
+              <td>Leal</td>
+              <td>Negativa</td>
+              <td>Autoconfianza</td>
             </tr>
-            
-                       
-    </tbody>
-         
+          </tbody>
         </table>
+
+
+
       </section>
 
       <article>
-        <h2>Multimedia</h2>
+        <h3>Multimedia</h3>
 
-        <h3>Mi cantante favorito; Edagar Prada</h3>
+        <h4>Mi cantante favorito; Edagar Prada</h4>
         <audio src="/html/Imagenes/mejor amigo.mpeg" controls>
           porEdgarPrada
         </audio>
 
-        <h3>De esnsayo</h3>
+        <h4> Esnsayo introducción en guitarra</h4>
         <video src="/html/Imagenes/introedgar.mp4" controls></video>
       </article>
+
+      <section class="Lista-ol">
+        <ol>
+          <h3>Pasos para ser exitoso</h3>
+  
+          <li>Fija una meta específica.</li>
+          <li>Fija una meta específica. ...</li>
+          <li>Divide la meta en tareas más pequeñas.</li>
+          <li>Usa el tiempo eficientemente.</li>
+          <li>Siempre verifica donde partiste y cuanto te falta.</li>
+          <li>Saber; no es lo mismo que hacer.</li>
+          <li>Reconoce tus resultados y continúa siendo exitoso.</li>
+        </ol>
+      </section>
     </main>
 
-    <section>
-      <ol>
-        <h3>Pasos para ser exitoso</h3>
-
-        <li>Fija una meta específica.</li>
-        <li>Fija una meta específica. ...</li>
-        <li>Divide la meta en tareas más pequeñas.</li>
-        <li>Usa el tiempo eficientemente.</li>
-        <li>Siempre verifica donde partiste y cuanto te falta.</li>
-        <li>Saber; no es lo mismo que hacer.</li>
-        <li>Reconoce tus resultados y continúa siendo exitoso.</li>
-      </ol>
-    </section>
-
-    <aside>
-      La importancia de adquierir nuevos conocimientos y aprender ingles
-    </aside>
-prada 
-    <footer> <h4> derechos de Autor  Darly </h4></footer>
+   
+  
+    <footer><h5> Derechos de Autor; Darly 2023 </h5></footer>
   </body>
 </html>
