@@ -5,61 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi perfil</title>
 
-    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="estilos.css" />
   </head>
   <body>
-    <header>
-      <div> 
-
-        <h1><a href="#">DARLEIDA PRADA DEVIA </a></h1>
-
-        <nav class="nav">      
-          <a href="#"> Principal</a>
-          <a href="#"> Favoritos</a>
-          <a href="#"> Familia </a>
-          <a href="#"> Contactos</a>
-
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">Darleida-Prada</a>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Principal</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Favoritos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Familia</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Contacto</a>
+          </li>
+        </ul>
       </nav>
-
-      <img src="assests/mifoto.jpeg" alt="foto de Perfil">
-    </div>
-
-
     </header>
-  
-       <main>
+
+    <main>
       <section class="contenido">
-        <h2>Mi perfil </h2>
+        <img class="mifoto" src="assests/mifoto.jpeg" alt="foto de Perfil" />
+
+        <h2>Mi perfil</h2>
         <p>
           Amplia experiencia en logística de transportes... <br />
-          Dando un giro; Este es un nuevo comienzo de un mundo desconocido pero de la vida real, prácticas y proyectos
-          pequeños que estoy desarrollando mientras aprendo diferentes lenguajes
-          de programación y herramientas. Git: Mis primeros pasos en la
-          programación. HTML/CSS: Prácticas de diseño y estructura web. 
-          <hr> 
-
-        <h4> Mis Gustos </h4><br>
-        <p>      
-        Compartir en familia, practicar piano,Leer,viajar, y Asisto y participo en la Iglesia. 
+          Dando un giro; Este es un nuevo comienzo de un mundo desconocido pero
+          de la vida real, prácticas y proyectos pequeños que estoy
+          desarrollando mientras aprendo diferentes lenguajes de programación y
+          herramientas. Git: Mis primeros pasos en la programación. HTML/CSS:
+          Prácticas de diseño y estructura web.
         </p>
 
+        <h3>Mis Gustos</h3>
+        <p>
+          Compartir en familia, practicar piano,Leer,viajar, y Asistir y
+          participar en la Iglesia.
+        </p>
       </section>
 
       <aside>
-
-        <h2>Familia Prada Devia </h2>
-        <p>La familia es la base de una sociedad sana, que nos lleva a formar nuestra personalidad, tomar decisiones, 
-        lograr estabilidad emocional, buscar nuevos horizontes. y sobretodo encontrar amor y aceptacion incondiional </p>
-        <br>
-      
-       <div><img src="assests/familia.png" alt=""></div>
-     
+        <h2>Familia Prada Devia</h2>
+        <p>
+          La familia es la base de una sociedad sana, que nos lleva a formar
+          nuestra personalidad, tomar decisiones, lograr estabilidad emocional,
+          buscar nuevos horizontes. y sobretodo encontrar amor y aceptación
+          incondicional.
+        </p>
+        <br />
+        <img
+          class="familia"
+          src="assests/familia.png"
+          alt="foto de mi familia"
+        />
       </aside>
-
-      <section class="cont2">
-        <h3>Conociéndome...</h3>
+      <hr />
+      <section class="tabla">
         <table>
           <thead>
+            <h3>Conociéndome...</h3>
+
             <th>Fortalezas</th>
             <th>Valores</th>
             <th>Debilidades</th>
@@ -89,49 +99,70 @@
             </tr>
           </tbody>
         </table>
-
       </section>
-      </ul>
 
+      <h3>Multimedia</h3>
 
-      <article>
-        <h3>Multimedia</h3>
-
-        <h4>Mi cantante favorito; Edagar Prada</h4>
+      <article class="multi">
+        
         <span>
-          <audio src="/docs/html/assests/audio.mp3" controls>
-            por; Edgar Prada
-          </audio>
+          <h4>Mi cantante favorito; Edagar Prada</h4>
+
+          <audio src="/assests/audio.mp3" controls>por; Edgar Prada</audio>
+          <hr />
+
+          <h5>
+            Si tu confias en Jesús , el te hara felíz<br />
+            el será tu mejor amigo y nunca en la vida e ira a faltar <br />
+            En la alegría o en la soledad y sin fuerzas para caminar <br />
+            "No te olvides de tu fiel amigo, pues en él por siempre debe
+            esperar" <br />
+            "Gracias Jesús por la paz y la felicidad que siento en mí,<br />
+            Gracias Jesús desde el dia que llego a mi vida siempre tú has sido
+            el todo para mí.
+          </h5>
+         
+          <div class="iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/YRlTnH2U7ao?si=ou5NRJlcksUQqS9N"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </span>
-       
 
-        <h4> Esnsayo introducción en guitarra</h4>
-        <span>
+       <span>
+          <h4>Esnsayo introducción en guitarra</h4>
           <video src="assests/video.mp4" controls></video>
         </span>
-        
       </article>
 
-      <section class="Lista">
-
-        <ol class="item">
-
+      <section class="lista">
+        <ol class="lista-item">
           <h3>Pasos para ser exitoso</h3>
-  
-          <li>Fija una meta específica.</li>
-          <li>Divide la meta en tareas más pequeñas.</li>
-          <li>Usa el tiempo eficientemente.</li>
-          <li>Siempre verifica donde partiste y cuanto te falta.</li>
-          <li>Saber; no es lo mismo que hacer.</li>
-          <li>Reconoce tus resultados y continúa siendo exitoso.</li>
+
+          <li class="lista-item">Fija una meta específica.</li>
+          <li class="lista-item">Divide la meta en tareas más pequeñas.</li>
+          <li class="lista-item">Usa el tiempo eficientemente.</li>
+          <li class="lista-item">
+            Siempre verifica donde partiste y cuanto te falta.
+          </li>
+          <li class="lista-item">Saber; no es lo mismo que hacer.</li>
+          <li class="lista-item">
+            Reconoce tus resultados y continúa siendo exitoso.
+          </li>
         </ol>
       </section>
     </main>
 
-   
-  
     <footer>
-      <h5> Derechos de Autor; Darly 2023 </h5>
+      <h5>Derechos de Autor; Darly 2023</h5>
+      <a class="pie" href="darly.prada26@gmail.com" target="_blank">e-mail</a>
     </footer>
   </body>
 </html>
