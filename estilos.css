@@ -40,7 +40,7 @@
 }
 .nav-menu{
    display: flex;
-   margin right: 40px;
+   margin right:40px;
    list-style:none;
 }
 .nav-menu-item{
@@ -177,7 +177,6 @@ aside{
          margin: 16px;
          padding-left: 26px;
       }
-
 
 
       footer{
