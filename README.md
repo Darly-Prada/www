@@ -18,4 +18,4 @@ Cada carpeta en este repositorio corresponde a un lenguaje de programación o he
 
 
 Creado por: Darleida Prada
-2023
+2023 - Bit
